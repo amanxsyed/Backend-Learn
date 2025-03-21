@@ -1,0 +1,18 @@
+{
+  "name": "firstbackend",
+  "version": "1.0.0",
+  "description": "basic app to deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "backend"
+  ],
+  "author": "Syed Aman Shah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
