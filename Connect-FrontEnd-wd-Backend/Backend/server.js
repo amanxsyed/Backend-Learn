@@ -9,7 +9,7 @@ const app = express();
 // app.get() Defines a route for handling HTTP GET requests.
 // Specifies what happens when a client makes a GET request to a particular endpoint.
 // Sends back data to the client
-app.get("/jokes", (req,res) =>{
+app.get("/api/jokes", (req,res) =>{
     const jokes = [
         {
             "id": 1,
